@@ -1,0 +1,13 @@
+<p>first works!</p> 
+<p>l'étudiant(e) {{name}}  a {{moyenne}} de moyenne </p>
+<img [src]=" imgurl " [alt]=" alternative" height="100" width="100">
+<button (click)="name='ahmed';moyenne=30">change me1</button>
+<button (click)="onchange()">Change me2</button>
+<input type="text" [(ngModel)]="text">
+<p>{{text}}</p>
+
+<div>
+    <p>{{user.username}}</p>
+    <p>{{user.moyenne}}</p>
+    <img [src]="user.img">
+</div>
